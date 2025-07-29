@@ -1,0 +1,60 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$username\
+$hostname\
+$kubernetes\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$docker_context\
+$c\
+$golang\
+$helm\
+$python\
+$rlang\
+$rust\
+$zig\
+$memory_usage\
+$gcloud\
+$character"""
+add_newline = false
+
+[git_branch]
+symbol = "git "
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+
+[c]
+symbol = "C "
+
+[docker_context]
+symbol = "docker "
+
+[gcloud]
+symbol = "gcp "
+
+[golang]
+symbol = "go "
+
+[python]
+symbol = "py "
+
+[rlang]
+symbol = "r "
+
+[rust]
+symbol = "rs "
+
+[zig]
+symbol = "zig "
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[x](bold red)"
