@@ -3,7 +3,6 @@
 format = """
 $username\
 $hostname\
-$kubernetes\
 $directory\
 $git_branch\
 $git_state\
@@ -16,7 +15,7 @@ $python\
 $rlang\
 $rust\
 $zig\
-$memory_usage\
+$kubernetes\
 $character"""
 add_newline = false
 
@@ -50,6 +49,11 @@ symbol = "rs "
 
 [zig]
 symbol = "zig "
+
+[kubernetes]
+disabled = false
+symbol = "k8s "
+format = '[\($namespace\)](dimmed green) '
 
 [character]
 success_symbol = "[>](bold green)"

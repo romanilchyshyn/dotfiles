@@ -11,6 +11,10 @@ eval "$(starship init zsh)"
 export EDITOR=micro
 export VISUAL=$EDITOR
 
+alias k="kubectl"
+alias kctx="kubectx"
+alias kns="kubens"
+
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 
