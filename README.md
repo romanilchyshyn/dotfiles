@@ -1,5 +1,8 @@
 # dotfiles
 
+Install [fzf](https://github.com/junegunn/fzf?tab=readme-ov-file#installation), 
+[starship](https://github.com/starship/starship?tab=readme-ov-file#step-1-install-starship).
+
 Create symlinks:
 ```sh
 ln -sfv ~/dotfiles/startship/starship.toml ~/.config/starship.toml
