@@ -11,3 +11,6 @@ cursor-style-blink = false
 shell-integration-features = no-cursor
 
 macos-icon = holographic
+
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+quick-terminal-animation-duration=0
