@@ -14,6 +14,8 @@ ln -sfv ~/dotfiles/startship/starship.toml ~/.config/starship.toml
 ln -sfv ~/dotfiles/ghostty/config ~/.config/ghostty/config
 ln -sfv ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sfv ~/dotfiles/vim/vimrc ~/.config/vim/vimrc
+ln -sfv ~/dotfiles/zed/settings.json ~/.config/zed/settings.json
+ln -sfv ~/dotfiles/zed/keymap.json ~/.config/zed/keymap.json
 ```
 
 Sublime Merge CLI:

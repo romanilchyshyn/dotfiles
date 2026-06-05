@@ -1,0 +1,180 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "show_edit_predictions": false,
+  "edit_predictions": {
+    "mode": "eager",
+    "allow_data_collection": "no",
+    "disabled_globs": ["*.go", "*.py", "*.json", "*.txt"],
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "code_lens": "on",
+  "agent_ui_font_size": 14.0,
+  "cursor_shape": "bar",
+  "cursor_blink": false,
+  "inline_code_actions": false,
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "toolbar": {
+    "code_actions": false,
+    "agent_review": false,
+    "quick_actions": false,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "search": {
+    "button": false,
+  },
+  "zoomed_padding": true,
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "show_diagnostics": "errors",
+    "show_close_button": "always",
+    "git_status": true,
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+    "show": false,
+  },
+  "status_bar": {
+    "active_encoding_button": "non_utf8",
+    "show_active_file": false,
+    "line_endings_button": false,
+    "cursor_position_button": true,
+    "active_language_button": true,
+  },
+  "debugger": {
+    "button": false,
+    "dock": "right",
+  },
+  "terminal": {
+    "button": false,
+    "shell": "system",
+  },
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400.0,
+  "ui_font_family": ".ZedSans",
+  "title_bar": {
+    "show_menus": false,
+    "show_user_picture": false,
+    "show_user_menu": false,
+    "show_onboarding_banner": false,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_branch_status_icon": true,
+    "show_sign_in": false,
+  },
+  "colorize_brackets": true,
+  "vim_mode": true,
+  "vim": {
+    "cursor_shape": {
+      "visual": "bar",
+      "normal": "block",
+    },
+    "toggle_relative_line_numbers": true,
+  },
+  "proxy": "",
+  "disable_ai": false,
+  "show_wrap_guides": false,
+  "auto_update": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "cli_default_open_behavior": "new_window",
+  "project_panel": {
+    "button": false,
+    "hide_root": true,
+    "diagnostic_badges": false,
+    "scrollbar": {
+      "show": "auto",
+    },
+    "bold_folder_labels": false,
+    "indent_size": 15.0,
+    "entry_spacing": "standard",
+    "default_width": 400.0,
+    "dock": "right",
+  },
+  "outline_panel": {
+    "button": false,
+    "default_width": 400.0,
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "default_width": 400.0,
+    "button": false,
+    "dock": "left",
+  },
+  "agent": {
+    "max_content_width": 400.0,
+    "enable_feedback": false,
+    "sidebar_side": "right",
+    "button": false,
+    "default_width": 400.0,
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "status_style": "icon",
+    "button": false,
+    "default_width": 400.0,
+    "dock": "right",
+  },
+  "theme": "Catppuccin Latte",
+  "ui_font_size": 15.0,
+  "buffer_font_size": 14,
+  "buffer_font_family": "Iosevka",
+  "show_completions_on_input": true,
+  "vertical_scroll_margin": 20,
+  "scroll_beyond_last_line": "off",
+  "languages": {
+    "Go": {
+      "tab_size": 4,
+      "hard_tabs": true,
+      "formatter": "language_server",
+      "format_on_save": "on",
+    },
+    "Python": {
+      "tab_size": 4,
+      "hard_tabs": false,
+      "format_on_save": "on",
+    },
+    "Zig": {
+      "tab_size": 4,
+      "hard_tabs": false,
+      "formatter": "language_server",
+      "format_on_save": "on",
+    },
+    "C": {
+      "tab_size": 4,
+      "hard_tabs": true,
+      "formatter": "language_server",
+      "format_on_save": "on",
+    },
+    "Assembly": {
+      "tab_size": 8,
+      "hard_tabs": true,
+      "show_completions_on_input": false,
+    },
+  },
+}
