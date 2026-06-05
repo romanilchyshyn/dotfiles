@@ -8,7 +8,7 @@ source <(fzf --zsh)
 
 eval "$(starship init zsh)"
 
-export EDITOR=micro
+export EDITOR=vim
 export VISUAL=$EDITOR
 
 alias k="kubectl"
