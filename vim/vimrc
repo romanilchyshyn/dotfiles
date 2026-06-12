@@ -23,3 +23,4 @@ set background=light
 colorscheme catppuccin_latte
 
 set guicursor=a:blinkwait0-blinkon0-blinkoff0
+set guifont=Iosevka:h14
