@@ -16,7 +16,10 @@ set noerrorbells
 set scrolloff=20
 set mouse=a
 set clipboard=unnamed
+
 autocmd FileType python,yaml setlocal expandtab
+autocmd InsertLeave,TextChanged * silent! update
+
 syntax on
 set termguicolors
 set background=light
