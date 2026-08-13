@@ -1,0 +1,85 @@
+{
+  "workbench.colorTheme": "Catppuccin Latte",
+  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.browser.showInTitleBar": false,
+  "window.commandCenter": false,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Iosevka",
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.cursorSurroundingLines": 20,
+  "editor.scrollBeyondLastLine": false,
+  "editor.codeActionsOnSave": {},
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.tmpl": "html",
+    "*.tpl": "html"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "debug.toolBarLocation": "docked",
+  "git.openRepositoryInParentFolders": "never",
+  "git.confirmSync": true,
+  "gitlens.hovers.enabled": false,
+  "gitlens.blame.fontFamily": "Iosevka",
+  "extensions.ignoreRecommendations": true,
+  "extensions.allowed": "*",
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "workbench.settings.applyToAllProfiles": [],
+  "jupyter.askForKernelRestart": false,
+  "go.testFlags": [
+    "-v",
+    "-count=1"
+  ],
+  "go.buildTags": "direct_cli_and_operator,e2e",
+  "go.toolsManagement.autoUpdate": true,
+  "gopls": {},
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": false
+  },
+  "[css]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "none",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "breadcrumbs.enabled": false,
+  "notebook.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
+  "editor.cursorBlinking": "solid",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        ":"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ],
+      "silent": true
+    }
+  ]
+}
